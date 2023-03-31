@@ -11,6 +11,7 @@
             License(name, rnd.Next(3), list);
             
         }
+
         public static void License(string name, int available_number, List<string> list)
         {
             list.Add(name);
